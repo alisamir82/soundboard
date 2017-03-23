@@ -13,6 +13,7 @@
 		4146294C1E84826B00ED36CD /* SoundBoard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4146294A1E84826B00ED36CD /* SoundBoard.xcdatamodeld */; };
 		4146294E1E84826B00ED36CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4146294D1E84826B00ED36CD /* Assets.xcassets */; };
 		414629511E84826B00ED36CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4146294F1E84826B00ED36CD /* LaunchScreen.storyboard */; };
+		414629591E84847800ED36CD /* recorderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414629581E84847800ED36CD /* recorderViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		4146294D1E84826B00ED36CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		414629501E84826B00ED36CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		414629521E84826B00ED36CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		414629581E84847800ED36CD /* recorderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = recorderViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				414629431E84826B00ED36CD /* AppDelegate.swift */,
 				414629451E84826B00ED36CD /* ViewController.swift */,
+				414629581E84847800ED36CD /* recorderViewController.swift */,
 				414629471E84826B00ED36CD /* Main.storyboard */,
 				4146294D1E84826B00ED36CD /* Assets.xcassets */,
 				4146294F1E84826B00ED36CD /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				414629591E84847800ED36CD /* recorderViewController.swift in Sources */,
 				4146294C1E84826B00ED36CD /* SoundBoard.xcdatamodeld in Sources */,
 				414629461E84826B00ED36CD /* ViewController.swift in Sources */,
 				414629441E84826B00ED36CD /* AppDelegate.swift in Sources */,
