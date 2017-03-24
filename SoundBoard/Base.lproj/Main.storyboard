@@ -41,6 +41,9 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="tableView" destination="5Mu-oO-uML" id="YXL-oS-tf4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -82,7 +85,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qxh-G4-j54">
-                                <rect key="frame" x="164" y="234" width="49" height="30"/>
+                                <rect key="frame" x="163" y="234" width="49" height="30"/>
                                 <state key="normal" title="➕Add"/>
                                 <connections>
                                     <action selector="addTapped:" destination="rqQ-CS-eVU" eventType="touchUpInside" id="dPA-bA-DQL"/>
@@ -102,7 +105,9 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="recordButton" destination="jsI-r6-VTl" id="jUU-j2-fO5"/>
+                        <outlet property="addButton" destination="qxh-G4-j54" id="3ZT-Oa-GtF"/>
+                        <outlet property="playButton" destination="NCl-b9-ZdI" id="v0b-ms-wJc"/>
+                        <outlet property="recordButton" destination="3EG-df-Xpe" id="2P1-84-UCm"/>
                         <outlet property="textField" destination="EOo-o7-fUz" id="sf0-W1-ILh"/>
                     </connections>
                 </viewController>
